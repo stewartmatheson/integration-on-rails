@@ -1,0 +1,13 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  name: MyString
+  repositiory_url: MyString
+  project_type_id: 1
+  repositiory_type_id: 1
+
+two:
+  name: MyString
+  repositiory_url: MyString
+  project_type_id: 1
+  repositiory_type_id: 1

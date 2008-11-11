@@ -1,0 +1,23 @@
+<p>
+  <b>Name:</b>
+  <%=h @project.name %>
+</p>
+
+<p>
+  <b>Repositiory url:</b>
+  <%=h @project.repositiory_url %>
+</p>
+
+<p>
+  <b>Project type:</b>
+  <%=h @project.project_type_id %>
+</p>
+
+<p>
+  <b>Repositiory type:</b>
+  <%=h @project.repositiory_type_id %>
+</p>
+
+
+<%= link_to 'Edit', edit_project_path(@project) %> |
+<%= link_to 'Back', projects_path %>
